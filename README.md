@@ -31,7 +31,7 @@ You may use this application as a template for your own portfolio. You may also 
 
 ## Screenshot
 
-![Screenshot](./public/assets/ss.png)
+![Screenshot](./ss.png)
 
 ## Github Pages Link
 
