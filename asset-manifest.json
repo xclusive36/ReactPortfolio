@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.2be278a7.css",
+    "main.js": "/ReactPortfolio/static/js/main.c1a82ee5.js",
+    "static/js/443.4e6342aa.chunk.js": "/ReactPortfolio/static/js/443.4e6342aa.chunk.js",
+    "static/js/738.1ab4a439.chunk.js": "/ReactPortfolio/static/js/738.1ab4a439.chunk.js",
+    "static/js/572.3ed33990.chunk.js": "/ReactPortfolio/static/js/572.3ed33990.chunk.js",
+    "static/js/372.dfb2e73d.chunk.js": "/ReactPortfolio/static/js/372.dfb2e73d.chunk.js",
+    "static/js/856.654de58d.chunk.js": "/ReactPortfolio/static/js/856.654de58d.chunk.js",
+    "static/js/787.e29dc422.chunk.js": "/ReactPortfolio/static/js/787.e29dc422.chunk.js",
+    "static/media/IMG_0611.jpeg": "/ReactPortfolio/static/media/IMG_0611.2ca9277404aa52ca79c3.jpeg",
+    "static/media/vf.png": "/ReactPortfolio/static/media/vf.7ea3f76ebc4860804f63.png",
+    "static/media/misfitgirl.png": "/ReactPortfolio/static/media/misfitgirl.51cdd9436dfa133c352c.png",
+    "static/media/meta-insight.png": "/ReactPortfolio/static/media/meta-insight.96cc986926bc282d9ee8.png",
+    "static/media/Poppins-Regular.ttf": "/ReactPortfolio/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/ReactPortfolio/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/ReactPortfolio/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/photo.jpeg": "/ReactPortfolio/static/media/photo.05f00489f2414bb1bcc8.jpeg",
+    "static/media/blackjack.png": "/ReactPortfolio/static/media/blackjack.cd8fe83f9221fd1d5ea3.png",
+    "static/media/mongoosejs.svg": "/ReactPortfolio/static/media/mongoosejs.a908f5179aa4138b49f646a808a68c85.svg",
+    "static/media/minesweeper.png": "/ReactPortfolio/static/media/minesweeper.67b4840b3a1fcac6f21a.png",
+    "static/media/litestep.webp": "/ReactPortfolio/static/media/litestep.c9670fd38ed7ed9a52dd.webp",
+    "static/media/postgresql.svg": "/ReactPortfolio/static/media/postgresql.29aef66790dafa021ec4c36bbd59e370.svg",
+    "static/media/mongodb.svg": "/ReactPortfolio/static/media/mongodb.eb842895e80bd61dd471f2b70345feab.svg",
+    "static/media/vite.svg": "/ReactPortfolio/static/media/vite.d093fea5c37d0d5a4568150e2e326166.svg",
+    "static/media/typescript.svg": "/ReactPortfolio/static/media/typescript.32fb130a1a03eac5cd3d509d5b96f188.svg",
+    "index.html": "/ReactPortfolio/index.html",
+    "static/media/express.svg": "/ReactPortfolio/static/media/express.076c798a78385ade2dc698f1a1d92613.svg",
+    "main.2be278a7.css.map": "/ReactPortfolio/static/css/main.2be278a7.css.map",
+    "main.c1a82ee5.js.map": "/ReactPortfolio/static/js/main.c1a82ee5.js.map",
+    "443.4e6342aa.chunk.js.map": "/ReactPortfolio/static/js/443.4e6342aa.chunk.js.map",
+    "738.1ab4a439.chunk.js.map": "/ReactPortfolio/static/js/738.1ab4a439.chunk.js.map",
+    "572.3ed33990.chunk.js.map": "/ReactPortfolio/static/js/572.3ed33990.chunk.js.map",
+    "372.dfb2e73d.chunk.js.map": "/ReactPortfolio/static/js/372.dfb2e73d.chunk.js.map",
+    "856.654de58d.chunk.js.map": "/ReactPortfolio/static/js/856.654de58d.chunk.js.map",
+    "787.e29dc422.chunk.js.map": "/ReactPortfolio/static/js/787.e29dc422.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2be278a7.css",
+    "static/js/main.c1a82ee5.js"
+  ]
+}
