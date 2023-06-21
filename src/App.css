@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.content {
+  max-width: 1075px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  flex-grow: 4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ion-thumbnail {
+  --size: 10rem;
+  --border-radius: 25px;
+  min-width: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.background-image {
+  --background: url(./assets/images/IMG_0611.jpeg) 0 0/100% 100% no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-content-md p {
+  padding: 0.5rem 0;
+  font-weight: 500;
+}
+
+.card-container {
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.large-image {
+  height: 120%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.skill {
+  font-size: 2rem;
+}
+
+#my-resume ion-card {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  text-align: center;
 }
