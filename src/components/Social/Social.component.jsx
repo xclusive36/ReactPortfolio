@@ -1,10 +1,10 @@
-import { IonButton, IonCol, IonIcon } from "@ionic/react";
-import {logoLinkedin, logoGithub, logoTwitter} from 'ionicons/icons';
+import { IonButton, IonCol, IonIcon } from "@ionic/react"; // import components from @ionic/react
+import {logoLinkedin, logoGithub, logoTwitter} from 'ionicons/icons'; // import icons from ionicons
 
-import "./Social.styles.css";
+import "./Social.styles.css"; // import Social component styles
 
-const Social = () => {
-  return (
+const Social = () => { // create Social component
+  return ( // return Social component
     <IonCol id="social-buttons">
       <IonButton
         color="dark"
@@ -34,4 +34,4 @@ const Social = () => {
   );
 };
 
-export default Social;
+export default Social; // export Social component

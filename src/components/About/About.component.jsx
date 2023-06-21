@@ -9,8 +9,8 @@ import {
 } from "@ionic/react";
 import portfolioPhoto from "../../assets/images/photo.jpeg"; // import photo of me
 
-const About = () => {
-  return (
+const About = () => { // Create About component
+  return ( // return About component
     <IonCardContent className="about">
       <IonThumbnail>
         <IonImg src={portfolioPhoto}></IonImg>
@@ -41,4 +41,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About; // export About component

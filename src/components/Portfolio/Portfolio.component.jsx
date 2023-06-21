@@ -1,4 +1,4 @@
-import {
+import { // import components from ionic/react
   IonCard,
   IonCardHeader,
   IonCardTitle,
@@ -16,7 +16,7 @@ import LiteStep from "../../assets/images/litestep.webp"; // import image of lit
 import Minesweeper from "../../assets/images/minesweeper.png"; // import image of minesweeper
 import BlackJack from "../../assets/images/blackjack.png"; // import image of blackjack
 
-const Portfolio = () => {
+const Portfolio = () => { // create Portfolio component
   const projects = [
     // array of projects to map over
     {
@@ -57,7 +57,7 @@ const Portfolio = () => {
     },
   ];
 
-  return (
+  return ( // return Portfolio component
     <>
       <IonCardHeader>
         <IonCardTitle>Portfolio</IonCardTitle>
@@ -96,4 +96,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Portfolio; // export Portfolio component

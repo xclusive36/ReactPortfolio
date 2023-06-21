@@ -1,18 +1,18 @@
-import { useState } from "react";
-import { IonCardHeader, IonCardTitle, IonIcon, IonButton } from "@ionic/react";
-import {
+import { useState } from "react"; // import useState hook
+import { IonCardHeader, IonCardTitle, IonIcon, IonButton } from "@ionic/react"; // import components from @ionic/react
+import { // import icons from ionicons
   mailOutline,
   informationCircleOutline,
   briefcaseOutline,
   bookOutline,
   menuOutline,
 } from "ionicons/icons";
-import "./Header.styles.css";
+import "./Header.styles.css"; // import Header component styles
 
-const Header = () => {
-  const [selectedButton, setSelectedButton] = useState("about-me");
+const Header = () => { // create Header component
+  const [selectedButton, setSelectedButton] = useState("about-me"); // useState hook to set selectedButton state
 
-  return (
+  return ( // return Header component
     <IonCardHeader color="light" className="header">
       <IonCardTitle className="name">Joshua Cavell</IonCardTitle>
       <div className="header-buttons">
@@ -64,4 +64,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header; // export Header component

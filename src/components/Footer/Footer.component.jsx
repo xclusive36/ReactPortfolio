@@ -1,7 +1,7 @@
-import Social from "../Social/Social.component";
+import Social from "../Social/Social.component"; // import Social component
 
-const Footer = () => {
-  return (
+const Footer = () => { // Create Footer component
+  return ( // return Footer component
     <footer className="footer">
       <Social />
       <p className="footer-text">
@@ -15,4 +15,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer; // export Footer component

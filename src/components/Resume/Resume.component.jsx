@@ -1,4 +1,4 @@
-import {
+import { // Import components from ionic/react
   IonButton,
   IonCard,
   IonCardContent,
@@ -8,7 +8,7 @@ import {
   IonIcon,
 } from "@ionic/react";
 
-import {
+import { // Import icons from ionicons
   logoIonic,
   logoHtml5,
   logoCss3,
@@ -22,15 +22,15 @@ import {
   logoNpm,
 } from "ionicons/icons";
 
-import express from "../../assets/images/express.svg";
-import mongodb from "../../assets/images/mongodb.svg";
-import postgresql from "../../assets/images/postgresql.svg";
-import mongoosejs from "../../assets/images/mongoosejs.svg";
-import typescript from "../../assets/images/typescript.svg";
-import vite from "../../assets/images/vite.svg";
+import express from "../../assets/images/express.svg"; // Import image
+import mongodb from "../../assets/images/mongodb.svg";  // Import image
+import postgresql from "../../assets/images/postgresql.svg"; // Import image
+import mongoosejs from "../../assets/images/mongoosejs.svg"; // Import image
+import typescript from "../../assets/images/typescript.svg"; // Import image
+import vite from "../../assets/images/vite.svg"; // Import image
 
-const Resume = () => {
-  return (
+const Resume = () => { // Create Resume component
+  return ( // Return Resume component
     <>
       <IonCardHeader>
         <IonCardTitle>Resume</IonCardTitle>
@@ -172,4 +172,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Resume; // Export Resume component

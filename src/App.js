@@ -14,9 +14,9 @@ import Social from "./components/Social/Social.component"; // import Social comp
 import Footer from "./components/Footer/Footer.component"; // import Footer component
 import Project from "./components/Project/Project"; // import Project component
 import About from "./components/About/About.component"; // import About component
-import Portfolio from "./components/Portfolio/Portfolio.component";
-import Contact from "./components/Contact/Contact.component";
-import Resume from "./components/Resume/Resume.component";
+import Portfolio from "./components/Portfolio/Portfolio.component"; // import Portfolio component
+import Contact from "./components/Contact/Contact.component"; // import Contact component
+import Resume from "./components/Resume/Resume.component"; // import Resume component
 
 import "./App.css"; // import App.css stylesheet
 

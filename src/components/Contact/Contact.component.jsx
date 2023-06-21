@@ -1,4 +1,4 @@
-import {
+import { // import components from ionic
   useIonToast,
   IonCard,
   IonCardHeader,
@@ -10,7 +10,7 @@ import {
   IonButton,
 } from "@ionic/react";
 
-const Contact = () => {
+const Contact = () => { // create Contact component
   const [present] = useIonToast(); // useIonToast hook to present toast message to user
 
   const presentToast = (position, color, message) => {
@@ -101,4 +101,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contact; // export Contact component
