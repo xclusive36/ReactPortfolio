@@ -23,37 +23,43 @@ const Portfolio = () => { // create Portfolio component
       title: "Meta-Insight",
       alt: "Meta-Insight",
       image: MetaInsight,
-      link: "https://github.com/erin-m-keller/meta-insight/",
+      git: "https://github.com/erin-m-keller/meta-insight/",
+      deploy: "https://meta-insight.herokuapp.com/"
     },
     {
       title: "Volunteer Finder",
       alt: "Volunteer Finder",
       image: VolunteerFinder,
-      link: "https://github.com/erin-m-keller/volunteer-finder",
+      git: "https://github.com/erin-m-keller/volunteer-finder",
+      deploy: "https://erin-m-keller.github.io/volunteer-finder/"
     },
     {
       title: "Misfitgirl.com",
       alt: "MisfitGirl.com Wax melts",
       image: MisfitGirl,
-      link: "https://misfitgirl.com",
+      git: "https://github.com/WordPress",
+      deploy: "https://misfitgirl.com",
     },
     {
       title: "Minesweeper Web App",
       alt: "React Minesweeper Game",
       image: Minesweeper,
-      link: "https://stirring-parfait-06fd3c.netlify.app/",
+      git: "https://github.com/xclusive36/minesweeper",
+      deploy: "https://stirring-parfait-06fd3c.netlify.app/",
     },
     {
       title: "LiteStep iOS App",
       alt: "LiteStep Picklist App",
       image: LiteStep,
-      link: "https://apps.apple.com/us/app/litestep/id1490896776",
+      git: "https://github.com/xclusive36/LiteStep",
+      deploy: "https://apps.apple.com/us/app/litestep/id1490896776",
     },
     {
       title: "Black Jack",
       alt: "Black Jack Game",
       image: BlackJack,
-      link: "https://github.com/xclusive36/BlackJack",
+      git: "https://github.com/xclusive36/BlackJack",
+      deploy: "https://xclusive36.github.io/BlackJack/",
     },
   ];
 
@@ -84,7 +90,9 @@ const Portfolio = () => { // create Portfolio component
                     </a>
                   </IonCardHeader>
                   <IonCardContent className="ion-text-center">
-                    <a href={project.link}>{project.title}</a>
+                    <IonCardTitle>{project.title}</IonCardTitle><br />
+                    <a href={project.git}>Github link</a>
+                    <a href={project.deploy}>Deployed link</a>
                   </IonCardContent>
                 </IonCard>
               </IonCol>
