@@ -13,7 +13,6 @@ My Portfolio redesigned using React. This application is a portfolio that showca
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshot](#screenshot)
-- [Heroku Link](#heroku-link)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -58,9 +57,12 @@ Email: [Email](mailto:xclusive36@gmail.com)
 
 ## Sources
 
-- [Ionic Framework](https://ionicframework.com/)  
-- [React](https://reactjs.org/)  
+located inside the contact form component
 
-## Outside references used in this project:
+- [Ionic Framework](https://ionicframework.com/)
+- [React](https://reactjs.org/)
+
+## Outside references used in this project
+
 - [stackoverflow](https://stackoverflow.com/a/31664656)
 - [stackoverflow](https://stackoverflow.com/a/7381162)
