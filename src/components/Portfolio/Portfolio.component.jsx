@@ -1,4 +1,5 @@
-import { // import components from ionic/react
+import {
+  // import components from ionic/react
   IonCard,
   IonCardHeader,
   IonCardTitle,
@@ -16,7 +17,8 @@ import LiteStep from "../../assets/images/litestep.webp"; // import image of lit
 import Minesweeper from "../../assets/images/minesweeper.png"; // import image of minesweeper
 import BlackJack from "../../assets/images/blackjack.png"; // import image of blackjack
 
-const Portfolio = () => { // create Portfolio component
+const Portfolio = () => {
+  // create Portfolio component
   const projects = [
     // array of projects to map over
     {
@@ -24,14 +26,14 @@ const Portfolio = () => { // create Portfolio component
       alt: "Meta-Insight",
       image: MetaInsight,
       git: "https://github.com/erin-m-keller/meta-insight/",
-      deploy: "https://meta-insight.herokuapp.com/"
+      deploy: "https://meta-insight.herokuapp.com/",
     },
     {
       title: "Volunteer Finder",
       alt: "Volunteer Finder",
       image: VolunteerFinder,
       git: "https://github.com/erin-m-keller/volunteer-finder",
-      deploy: "https://erin-m-keller.github.io/volunteer-finder/"
+      deploy: "https://erin-m-keller.github.io/volunteer-finder/",
     },
     {
       title: "Misfitgirl.com",
@@ -63,7 +65,8 @@ const Portfolio = () => { // create Portfolio component
     },
   ];
 
-  return ( // return Portfolio component
+  return (
+    // return Portfolio component
     <>
       <IonCardHeader>
         <IonCardTitle>Portfolio</IonCardTitle>
@@ -90,8 +93,9 @@ const Portfolio = () => { // create Portfolio component
                     </a>
                   </IonCardHeader>
                   <IonCardContent className="ion-text-center">
-                    <IonCardTitle>{project.title}</IonCardTitle><br />
-                    <a href={project.git}>Github link</a>
+                    <IonCardTitle>{project.title}</IonCardTitle>
+                    <br />
+                    <a href={project.git}>Github link</a> -{" "}
                     <a href={project.deploy}>Deployed link</a>
                   </IonCardContent>
                 </IonCard>
