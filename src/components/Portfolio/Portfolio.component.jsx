@@ -95,7 +95,7 @@ const Portfolio = () => {
                   <IonCardContent className="ion-text-center">
                     <IonCardTitle>{project.title}</IonCardTitle>
                     <br />
-                    <a href={project.git}>Github link</a> -{" "}
+                    <a href={project.git}>Github link</a>&nbsp;-&nbsp;
                     <a href={project.deploy}>Deployed link</a>
                   </IonCardContent>
                 </IonCard>

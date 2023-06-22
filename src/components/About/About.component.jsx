@@ -1,11 +1,9 @@
 import {
   // import components from @ionic/react
   IonCardContent,
-  IonItem,
   IonThumbnail,
   IonCardTitle,
   IonImg,
-  IonLabel,
 } from "@ionic/react";
 import portfolioPhoto from "../../assets/images/photo.jpeg"; // import photo of me
 

@@ -24,6 +24,16 @@ const Contact = () => { // create Contact component
     });
   };
 
+  const checkIfRequired = (event) => {
+    event.preventDefault(); // prevent default form submission
+    const stringToCheck = event.target.value.trim(); // get name from form input and trim whitespace
+    if (!stringToCheck) {
+      // if string is empty
+      presentToast("bottom", "dark", "All inputs are required"); // present toast
+      return; // return
+    }
+  };
+
   const sendEmail = (event) => {
     // function to send email
     // references:
@@ -34,7 +44,7 @@ const Contact = () => { // create Contact component
     const name = event.target[0].value.trim(); // get name from form input and trim whitespace
     const email = event.target[1].value.trim(); // get email from form input and trim whitespace
     const message = event.target[2].value.trim(); // get message from form input and trim whitespace
-    const pattern = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/; // regex pattern for email validation
+    const pattern = "/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/"; // regex pattern for email validation
     if (!name) {
       // if name is empty
       presentToast("bottom", "danger", "Please enter your name."); // present toast
@@ -86,13 +96,13 @@ const Contact = () => { // create Contact component
       <IonCardContent>
         <form onSubmit={(event) => sendEmail(event)}>
           <IonItem>
-            <IonInput label="Name" required></IonInput>
+            <IonInput onIonBlur={checkIfRequired} label="Name" required></IonInput>
           </IonItem>
           <IonItem>
-            <IonInput label="Email" required></IonInput>
+            <IonInput onIonBlur={checkIfRequired} label="Email" required></IonInput>
           </IonItem>
           <IonItem>
-            <IonTextarea label="Message" required></IonTextarea>
+            <IonTextarea onIonBlur={checkIfRequired} label="Message" required></IonTextarea>
           </IonItem>
           <IonButton type="submit">Contact Me</IonButton>
         </form>
