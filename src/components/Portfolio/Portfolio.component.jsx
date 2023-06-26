@@ -9,6 +9,7 @@ import {
   IonCol,
   IonImg,
 } from "@ionic/react";
+import Project from "../Project/Project"; // import Project component
 
 import MetaInsight from "../../assets/images/meta-insight.png"; // import image of meta-insight
 import VolunteerFinder from "../../assets/images/vf.png"; // import image of volunteer finder
@@ -67,7 +68,7 @@ const Portfolio = () => {
 
   return (
     // return Portfolio component
-    <>
+    <Project id="portfolio">
       <IonCardHeader>
         <IonCardTitle>Portfolio</IonCardTitle>
       </IonCardHeader>
@@ -104,7 +105,7 @@ const Portfolio = () => {
           </IonRow>
         </IonGrid>
       </IonCardContent>
-    </>
+    </Project>
   );
 };
 

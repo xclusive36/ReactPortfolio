@@ -8,15 +8,11 @@ import {
   IonPage,
   IonRow,
 } from "@ionic/react";
+import { Outlet } from "react-router-dom"; // import Outlet and Link from react-router-dom
 
 import Header from "./components/Header/Header.component"; // import Header component
 import Social from "./components/Social/Social.component"; // import Social component
 import Footer from "./components/Footer/Footer.component"; // import Footer component
-import Project from "./components/Project/Project"; // import Project component
-import About from "./components/About/About.component"; // import About component
-import Portfolio from "./components/Portfolio/Portfolio.component"; // import Portfolio component
-import Contact from "./components/Contact/Contact.component"; // import Contact component
-import Resume from "./components/Resume/Resume.component"; // import Resume component
 
 import "./App.css"; // import App.css stylesheet
 
@@ -33,18 +29,7 @@ function App() {
                   <Social />
                 </div>
                 <IonCol className="main" color="light">
-                  <Project id="about-me">
-                    <About />
-                  </Project>
-                  <Project id="portfolio">
-                    <Portfolio />
-                  </Project>
-                  <Project id="contact">
-                    <Contact />
-                  </Project>
-                  <Project id="my-resume">
-                    <Resume />
-                  </Project>
+                  <Outlet />
                 </IonCol>
               </IonRow>
             </IonGrid>

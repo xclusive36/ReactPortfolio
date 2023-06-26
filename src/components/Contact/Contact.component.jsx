@@ -10,6 +10,7 @@ import {
   IonTextarea,
   IonButton,
 } from "@ionic/react";
+import Project from "../Project/Project"; // import Project component
 
 const Contact = () => {
   // create Contact component
@@ -91,37 +92,39 @@ const Contact = () => {
   };
 
   return (
-    <IonCard>
-      <IonCardHeader>
-        <IonCardTitle>Contact</IonCardTitle>
-      </IonCardHeader>
-      <IonCardContent>
-        <form onSubmit={(event) => sendEmail(event)}>
-          <IonItem>
-            <IonInput
-              onIonBlur={checkIfRequired}
-              label="Name"
-              required
-            ></IonInput>
-          </IonItem>
-          <IonItem>
-            <IonInput
-              onIonBlur={checkIfRequired}
-              label="Email"
-              required
-            ></IonInput>
-          </IonItem>
-          <IonItem>
-            <IonTextarea
-              onIonBlur={checkIfRequired}
-              label="Message"
-              required
-            ></IonTextarea>
-          </IonItem>
-          <IonButton type="submit">Contact Me</IonButton>
-        </form>
-      </IonCardContent>
-    </IonCard>
+    <Project id="contact">
+      <IonCard>
+        <IonCardHeader>
+          <IonCardTitle>Contact</IonCardTitle>
+        </IonCardHeader>
+        <IonCardContent>
+          <form onSubmit={(event) => sendEmail(event)}>
+            <IonItem>
+              <IonInput
+                onIonBlur={checkIfRequired}
+                label="Name"
+                required
+              ></IonInput>
+            </IonItem>
+            <IonItem>
+              <IonInput
+                onIonBlur={checkIfRequired}
+                label="Email"
+                required
+              ></IonInput>
+            </IonItem>
+            <IonItem>
+              <IonTextarea
+                onIonBlur={checkIfRequired}
+                label="Message"
+                required
+              ></IonTextarea>
+            </IonItem>
+            <IonButton type="submit">Contact Me</IonButton>
+          </form>
+        </IonCardContent>
+      </IonCard>
+    </Project>
   );
 };
 

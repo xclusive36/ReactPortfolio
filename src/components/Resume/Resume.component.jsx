@@ -1,4 +1,5 @@
-import { // Import components from ionic/react
+import {
+  // Import components from ionic/react
   IonButton,
   IonCard,
   IonCardContent,
@@ -7,8 +8,10 @@ import { // Import components from ionic/react
   IonCardTitle,
   IonIcon,
 } from "@ionic/react";
+import Project from "../Project/Project"; // Import Project component
 
-import { // Import icons from ionicons
+import {
+  // Import icons from ionicons
   logoIonic,
   logoHtml5,
   logoCss3,
@@ -23,15 +26,17 @@ import { // Import icons from ionicons
 } from "ionicons/icons";
 
 import express from "../../assets/images/express.svg"; // Import image
-import mongodb from "../../assets/images/mongodb.svg";  // Import image
+import mongodb from "../../assets/images/mongodb.svg"; // Import image
 import postgresql from "../../assets/images/postgresql.svg"; // Import image
 import mongoosejs from "../../assets/images/mongoosejs.svg"; // Import image
 import typescript from "../../assets/images/typescript.svg"; // Import image
 import vite from "../../assets/images/vite.svg"; // Import image
 
-const Resume = () => { // Create Resume component
-  return ( // Return Resume component
-    <>
+const Resume = () => {
+  // Create Resume component
+  return (
+    // Return Resume component
+    <Project id="my-resume">
       <IonCardHeader>
         <IonCardTitle>Resume</IonCardTitle>
       </IonCardHeader>
@@ -168,7 +173,7 @@ const Resume = () => { // Create Resume component
           Download My Resume
         </IonButton>
       </IonCardContent>
-    </>
+    </Project>
   );
 };
 
