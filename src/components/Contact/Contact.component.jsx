@@ -10,7 +10,6 @@ import {
   IonTextarea,
   IonButton,
 } from "@ionic/react";
-import Project from "../Project/Project"; // import Project component
 
 const Contact = () => {
   // create Contact component
@@ -92,7 +91,7 @@ const Contact = () => {
   };
 
   return (
-    <Project id="contact">
+    <section id="contact">
       <IonCard>
         <IonCardHeader>
           <IonCardTitle>Contact</IonCardTitle>
@@ -124,7 +123,7 @@ const Contact = () => {
           </form>
         </IonCardContent>
       </IonCard>
-    </Project>
+    </section>
   );
 };
 

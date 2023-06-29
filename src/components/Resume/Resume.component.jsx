@@ -8,7 +8,6 @@ import {
   IonCardTitle,
   IonIcon,
 } from "@ionic/react";
-import Project from "../Project/Project"; // Import Project component
 
 import {
   // Import icons from ionicons
@@ -36,7 +35,7 @@ const Resume = () => {
   // Create Resume component
   return (
     // Return Resume component
-    <Project id="my-resume">
+    <section id="my-resume">
       <IonCardHeader>
         <IonCardTitle>Resume</IonCardTitle>
       </IonCardHeader>
@@ -173,7 +172,7 @@ const Resume = () => {
           Download My Resume
         </IonButton>
       </IonCardContent>
-    </Project>
+    </section>
   );
 };
 

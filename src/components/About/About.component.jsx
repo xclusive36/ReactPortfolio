@@ -6,13 +6,12 @@ import {
   IonImg,
 } from "@ionic/react";
 import portfolioPhoto from "../../assets/images/photo.jpeg"; // import photo of me
-import Project from "../Project/Project"; // import Project component
 
 const About = () => {
   // Create About component
   return (
     // return About component
-    <Project id="about-me">
+    <section id="about-me">
       <IonCardContent className="about">
         <IonThumbnail>
           <IonImg src={portfolioPhoto}></IonImg>
@@ -40,7 +39,7 @@ const About = () => {
           </p>
         </div>
       </IonCardContent>
-    </Project>
+    </section>
   );
 };
 
