@@ -4,6 +4,7 @@ import MisfitGirl from "../../assets/images/misfitgirl.png"; // import image of 
 import LiteStep from "../../assets/images/litestep.webp"; // import image of litestep
 import Minesweeper from "../../assets/images/minesweeper.png"; // import image of minesweeper
 import BlackJack from "../../assets/images/blackjack.png"; // import image of blackjack
+import SnipSnap from "../../assets/images/snipsnap.png"; // import image of snipsnap
 
 import Project from "../Project/Project"; // import Project component
 import { IonGrid, IonRow } from "@ionic/react"; // import components from ionic/react
@@ -11,6 +12,13 @@ import { IonGrid, IonRow } from "@ionic/react"; // import components from ionic/
 const Projects = () => {
   const projects = [
     // array of projects to map over
+    {
+      title: "SnipSnap",
+      alt: "SnipSnap",
+      image: SnipSnap,
+      git: "https://github.com/xclusive36/SnipSnap/",
+      deploy: "https://snipsnapsalon-cac486d1b963.herokuapp.com/",
+    },
     {
       title: "Meta-Insight",
       alt: "Meta-Insight",
