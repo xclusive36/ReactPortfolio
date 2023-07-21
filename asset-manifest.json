@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.2be278a7.css",
-    "main.js": "/ReactPortfolio/static/js/main.7cf2f344.js",
+    "main.js": "/ReactPortfolio/static/js/main.c52b3fa9.js",
     "static/js/443.183e103e.chunk.js": "/ReactPortfolio/static/js/443.183e103e.chunk.js",
     "static/js/738.c1e0e90c.chunk.js": "/ReactPortfolio/static/js/738.c1e0e90c.chunk.js",
     "static/js/572.3ed33990.chunk.js": "/ReactPortfolio/static/js/572.3ed33990.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/Poppins-Medium.ttf": "/ReactPortfolio/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/Poppins-SemiBold.ttf": "/ReactPortfolio/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
     "static/media/photo.jpeg": "/ReactPortfolio/static/media/photo.05f00489f2414bb1bcc8.jpeg",
+    "static/media/snipsnap.png": "/ReactPortfolio/static/media/snipsnap.a963a969793305438622.png",
     "static/media/blackjack.png": "/ReactPortfolio/static/media/blackjack.cd8fe83f9221fd1d5ea3.png",
     "static/media/mongoosejs.svg": "/ReactPortfolio/static/media/mongoosejs.a908f5179aa4138b49f646a808a68c85.svg",
     "static/media/minesweeper.png": "/ReactPortfolio/static/media/minesweeper.67b4840b3a1fcac6f21a.png",
@@ -27,7 +28,7 @@
     "index.html": "/ReactPortfolio/index.html",
     "static/media/express.svg": "/ReactPortfolio/static/media/express.076c798a78385ade2dc698f1a1d92613.svg",
     "main.2be278a7.css.map": "/ReactPortfolio/static/css/main.2be278a7.css.map",
-    "main.7cf2f344.js.map": "/ReactPortfolio/static/js/main.7cf2f344.js.map",
+    "main.c52b3fa9.js.map": "/ReactPortfolio/static/js/main.c52b3fa9.js.map",
     "443.183e103e.chunk.js.map": "/ReactPortfolio/static/js/443.183e103e.chunk.js.map",
     "738.c1e0e90c.chunk.js.map": "/ReactPortfolio/static/js/738.c1e0e90c.chunk.js.map",
     "572.3ed33990.chunk.js.map": "/ReactPortfolio/static/js/572.3ed33990.chunk.js.map",
@@ -37,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.2be278a7.css",
-    "static/js/main.7cf2f344.js"
+    "static/js/main.c52b3fa9.js"
   ]
 }
